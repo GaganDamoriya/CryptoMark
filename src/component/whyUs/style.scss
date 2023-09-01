@@ -1,0 +1,21 @@
+.whyUs {
+  margin-top: 50px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.usHeading {
+  margin-bottom: 50px;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+}
+.imgsec {
+  img {
+    width: 1000px;
+    height: 470px;
+  }
+}

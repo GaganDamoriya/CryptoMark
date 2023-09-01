@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Noto+Sans:wght@100&family=Roboto+Mono:wght@300&family=Ubuntu:ital,wght@0,400;1,700&display=swap");
+body {
+  color: white;
+  height: 100vh;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.content {
+  height: 100%;
+  // align-items: center;
+  padding-top: 150px;
+
+  background: rgb(0, 1, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 1, 4, 1) 37%,
+    rgba(2, 12, 77, 1) 96%,
+    rgba(2, 12, 77, 1) 100%,
+    rgba(27, 27, 92, 1) 180%
+  );
+  span {
+    font-size: 4em;
+    font-weight: 700;
+  }
+}
+.contentwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headss {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 800px;
+  margin: 0 20px;
+}
+.heading {
+  margin-left: auto;
+  margin-right: auto;
+}
+.headingline2 {
+  background: -webkit-linear-gradient(
+    27deg,
+    rgba(15, 32, 199, 1) 30%,
+    rgba(105, 128, 226, 1) 49%,
+    rgba(117, 116, 230, 1) 55%,
+    rgba(134, 99, 235, 1) 60%,
+    rgba(188, 45, 253, 1) 73%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imgbitcoin {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  -webkit-animation: mover 1.2s infinite alternate;
+  animation: mover 1.2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+.showCoins {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 150px;
+  margin: 30px auto;
+  gap: 30px;
+}
